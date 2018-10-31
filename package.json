@@ -1,0 +1,21 @@
+{
+    "name": "leardev",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.26.3",
+        "gulp": "^3.9.1",
+        "gulp-cli": "^2.0.1",
+        "gulp-sass": "^4.0.2"
+    },
+    "dependencies": {
+        "express": "^4.16.4"
+    }
+}

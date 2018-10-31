@@ -1,0 +1,39 @@
+//botones
+@mixin boton($color) {
+    background: $color;
+    margin-top: 1rem;
+    padding: .5rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: $blanco;
+}
+
+@mixin box-sizing($box-model) {
+    box-sizing: $box-model;
+}
+
+@mixin background-imagen($imagen) {
+    background-image: url($imagen);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+// Media Queries
+@mixin telefono {
+    @media only screen and (min-width: #{$telefono}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media only screen and (min-width: #{$tablet}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media only screen and (min-width: #{$desktop}) {
+        @content;
+    }
+}
